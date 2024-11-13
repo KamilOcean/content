@@ -97,7 +97,7 @@ console.log([...formula].length); // 9
 
 ### Assigning to length
 
-Because string is a primitive, attempting to assign a value to a string's `length` property has no observable effect, and will throw in [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode).
+Because string is a primitive, attempting to assign a value to a string's `length` property has no observable effect, and will throw an error in [strict mode](/en-US/docs/Web/JavaScript/Reference/Strict_mode).
 
 ```js
 const myString = "bluebells";
